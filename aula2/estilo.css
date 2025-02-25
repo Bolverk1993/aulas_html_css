@@ -4,6 +4,7 @@
     padding: 0;
 }
 body {
+    height: 100vh;
     background-color: black;
     color: #f6f6f6;
 }
@@ -12,7 +13,18 @@ body {
     color: #22d4fd;
 }
 
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
 
+.apresentacao__conteudo{
+    width: 615px;
+  
+}
 
 
 .deixar-azul-vermeio {
@@ -20,3 +32,10 @@ body {
     border: 1px solid red
 }
 
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+
+.papresentacao__conteudo__texto{
+    font-size: 24px;
+}
