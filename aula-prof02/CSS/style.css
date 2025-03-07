@@ -85,3 +85,53 @@ margin-top: auto;
 }
 
 /* tem qrever a aula e consertar o menu */
+
+.tabela__container{
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+
+th,td{
+    border: 1px solid grey;
+    text-align: center;
+}
+
+table img{
+    width: 120px;
+    height: auto;
+}
+
+table input{
+    transform: scale(1.5);
+    margin: 10px; 
+    cursor: pointer;
+}
+
+.botao{
+    display: block;
+    width: 200px;
+    padding: 10;
+    margin: 20px auto;
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5%;
+}
+table,thead,tbody,td,tr{
+    display: block;
+    width: 100%;
+}
+td image{
+    width: 100px;
+    height: auto;
+}
