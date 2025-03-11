@@ -45,6 +45,12 @@ transform: translateX(-50%);
 color: white;
 text-decoration: none;
 font-weight: bold;
+transition: font-size 0.3s ease;
+}
+
+a:hover{
+    font-size: 18px;
+
 }
 
 main{
@@ -60,8 +66,12 @@ main{
     max-width: 50%;
 height: auto;
 margin-top: 20px;
-
+transition: opacity 0.5s ease;
  }
+
+.imagem_destaque:hover{
+    opacity: 0.5;
+}
 
 footer{
 background-color: dimgray;
@@ -126,7 +136,14 @@ table input{
     cursor: pointer;
     font-size: 16px;
     border-radius: 5%;
+    /* transition: suavisa as transiçoes de botao */
 }
+
+button:hover{
+    background-color: lightsalmon;
+    color: black;
+}
+
 table,thead,tbody,td,tr{
     display: block;
     width: 100%;
